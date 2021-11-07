@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+ul li{
+    list-style: none;
+}
+.clr{
+    clear: both;
+}
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
+#title-logo{
+    background: black;
+}
+#title-logo .t-logo{
+    text-align: right;
+}
+#title-logo .t-logo img{
+    width: 300px;
+    padding: 8px 0;
+    margin-right: 20px;
+}
+.t-text h2{
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+.t-text .line{
+    width: 40%;
+    height: 5px;
+    background: black;
+}
+
+/*-------=======================================
+            title-block 
+==============================================*/
+#title-block {
+    background: black;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    padding: 100px 0;
+}
+#title-block .title-part .pic{
+    text-align: center;
+}
+#title-block .title-part .pic img{
+    width: 80%;
+    
+}
+
+#title-block .title-part .text p {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    text-align: right;
+    font-weight: 500;
+    margin-right: 149px;
+}
+/*-------=======================================
+            title-block 
+==============================================*/
+
+/*-------=======================================
+            trust-block
+==============================================*/
+#trust-block .trust-part .left-part{
+    width: 50%;
+    float: left;
+
+}
+#trust-block .trust-part .left-part img{
+    width: 100%;
+}
+
+#trust-block .trust-part .right-part{
+    width: 50%;
+    float: left;
+}
+#trust-block .trust-part{
+    margin: 80px 0;
+}
+#trust-block .trust-part .right-part {
+    padding: 89px 0;
+}
+#trust-block .trust-part .right-part p {
+    font-family: 'Inter', sans-serif;
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 40px;
+    color: #050531;
+    margin-left: 50px;
+}
+#trust-block .trust-part .right-part img{
+    width: 152px;
+}
+
+
+/*-------=======================================
+            trust-block
+==============================================*/
+
+
+/*-------=======================================
+            crypto-block
+==============================================*/
+#crypto-block .t-text .line{
+    width: 60%;
+    height: 5px;
+    background: black;
+}
+#crypto-block .crypto-part{
+    margin: 80px 0;
+}
+#crypto-block .crypto-part .left-part {
+    width: 50%;
+    float: left;
+    padding: 105px 0;
+}
+#crypto-block .crypto-part .left-part p{
+    font-family: 'Inter', sans-serif;
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 40px;
+    color: #050531;
+    margin-right: 20px;
+}
+#crypto-block .crypto-part .left-part img{
+    width: 152px;
+}
+#crypto-block .crypto-part .right-part{
+    width: 50%;
+    float: left;
+    
+}
+#crypto-block .crypto-part .right-part img{
+    width: 100%;
+}
+/*-------=======================================
+            crypto-block
+==============================================*/
+/*-------=======================================
+            African-block
+==============================================*/
+#african-block .african-part{
+    margin: 80px 0;
+}
+#african-block .african-part .left-part{
+    width: 50%;
+    float: left;
+}
+#african-block .african-part .right-part {
+    width: 50%;
+    float: left;
+    padding: 87px 0;
+}
+#african-block .african-part .left-part img{
+    width: 100%;
+}
+#african-block .african-part .right-part p{
+    font-family: 'Inter', sans-serif;
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 40px;
+    color: #050531;
+    margin-left: 50px;
+}
+#african-block .african-part .right-part img{
+    width: 152px;
+}
+/*-------=======================================
+            African-block
+==============================================*/
+
+/*-------=======================================
+            Footer-block
+==============================================*/
+footer{
+    background: #F26824;
+}
+footer .footer-part{
+    padding: 100px 0;
+}
+footer .footer-part .e-part{
+    width: 60%;
+    float: left;
+}
+footer .footer-part .copy-part{
+    width: 40%;
+    float: left;
+}
+footer .footer-part .e-part input{
+    box-sizing: border-box;
+    width: 65%;
+    padding: 20px;
+    border: 5px solid #999;
+}
+footer .footer-part .e-part .btn{
+    background: white;
+    margin-left: 20px;
+    padding: 16px 20px 20px 20px;
+    border: 4px solid #595959;
+}
+footer .footer-part .e-part a{
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color:black;
+}
+footer .footer-part .copy-part p {
+    font-family: 'Inter', sans-serif;
+    font-size: 23px;
+    font-weight: 500;
+    text-align: right;
+    padding: 19px 0;
+}
+/*-------=======================================
+            Footer-block
+==============================================*/
